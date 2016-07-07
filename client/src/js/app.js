@@ -1,4 +1,5 @@
 import React from 'react';
 import {render} from 'react-dom';
+import AppComponent from './AppComponent'
 
-render(<h1>Hello, world!</h1>, document.getElementById('application'));
+render(<AppComponent/>, document.getElementById('application'));
