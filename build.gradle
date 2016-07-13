@@ -32,8 +32,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.session:spring-session:1.2.1.RELEASE')
 	compile('org.springframework.boot:spring-boot-starter-web')
-	compile("com.zaxxer:HikariCP")
-	runtime('org.postgresql:postgresql')
+	compile('com.h2database:h2')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
